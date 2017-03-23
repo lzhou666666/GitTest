@@ -1,5 +1,6 @@
 package com.example.zxl.gittestproject;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         mTvMyTest.setText("第五次修改后再修改");
 
         mTvMyTest.setTextColor(0xff00ff00);
+        mTvMyTest.setBackgroundColor(Color.RED);
     }
 
     public void btnTestClick(View btnView) {
