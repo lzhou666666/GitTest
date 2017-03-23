@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         this.mTvMyTest = (TextView) this.findViewById(R.id.tv_my_test);
-        mTvMyTest.setText("第一次修改并提交到github等提交的测试");
+        mTvMyTest.setText("第五次修改后再修改");
 
         mTvMyTest.setTextColor(0xff00ff00);
     }
-    
+
     public void btnTestClick(View btnView) {
         Toast.makeText(this, "btn的点击事件", Toast.LENGTH_SHORT).show();
     }
