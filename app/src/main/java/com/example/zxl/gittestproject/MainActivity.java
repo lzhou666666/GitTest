@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         mTvMyTest.setText("第五次修改后再修改");
 
         mTvMyTest.setTextColor(0xff00ff00);
-        mTvMyTest.setBackgroundColor(Color.RED);
+        mTvMyTest.setBackgroundColor(Color.GREEN);
     }
 
     public void btnTestClick(View btnView) {
