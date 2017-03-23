@@ -14,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         this.mTvMyTest = (TextView) this.findViewById(R.id.tv_my_test);
         mTvMyTest.setText("第一次修改并提交到github等提交的测试");
+
+        mTvMyTest.setTextColor(0xff00ff00);
     }
 }
